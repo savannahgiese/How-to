@@ -1,0 +1,58 @@
+body{
+  background-image: url("http://savvyg.me/CS_290/How-To/background.jpg");
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+}
+#wrap{
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+#header{
+	background: rgba(255, 254, 232,.82);
+	padding: 20px;
+	color: #c46a35;
+	font-weight: bold;
+}
+#header h1 { 
+  margin: 0;
+}
+#navigation{
+	float: left;
+	width: 800px;
+	background: rgba(241, 195, 182,.82);
+}
+#navigation ul{
+	margin: 0;
+	padding: 0;
+}
+#navigation ul li{
+	list-style-type: none;
+	display: inline;
+}
+#navigation li a{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #c46a35;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+#navigation li a:hover {
+  background: rgba(255, 254, 232,.62); 
+}
+#content{
+	clear: left;
+	padding: 20px;
+	color: #c46a35;
+	background: rgba(255, 250, 250,.82);
+	text-align: left;	
+}
+
+#title {
+	font-family:georgia, serif;
+	color:#c46a35;
+	font-size:20px;
+	font-weight:bold;
+	line-height:125%;
+	text-align:left;
+}
